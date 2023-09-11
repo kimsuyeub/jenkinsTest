@@ -15,7 +15,7 @@ public class HomeController {
 	@RequestMapping(value = "/home.do",method = RequestMethod.GET)
 	public String home(Model model) {
 		logger.info("Welcome home");
-		model.addAttribute("home","내일 발표 화이팅");
+		model.addAttribute("home","배고파");
 		return "home";
 	}
 }
